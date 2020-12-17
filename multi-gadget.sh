@@ -28,7 +28,7 @@ ln -s /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/control/header/h /sys
 # For 720p:
 # mkdir -p /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/mjpeg/m/720p
 # cat <<EOF > /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/mjpeg/m/720p/dwFrameInterval
-# 5000000
+# 333333
 # EOF
 # cat <<EOF > /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/mjpeg/m/720p/wWidth
 # 1280
@@ -49,7 +49,7 @@ ln -s /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/control/header/h /sys
 # For 1080p:
 mkdir -p /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/mjpeg/m/1080p
 cat <<EOF > /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/mjpeg/m/1080p/dwFrameInterval
-5000000
+333333
 EOF
 cat <<EOF > /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/mjpeg/m/1080p/wWidth
 1920
