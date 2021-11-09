@@ -15,10 +15,10 @@ mkdir /sys/kernel/config/usb_gadget/pi4/strings/0x409
 echo 100000000d2386db > /sys/kernel/config/usb_gadget/pi4/strings/0x409/serialnumber
 echo "Samsung" > /sys/kernel/config/usb_gadget/pi4/strings/0x409/manufacturer
 echo "Pi Webcam" > /sys/kernel/config/usb_gadget/pi4/strings/0x409/product
-mkdir /sys/kernel/config/usb_gadget/pi4/configs/c.2
-mkdir /sys/kernel/config/usb_gadget/pi4/configs/c.2/strings/0x409
-echo 500 > /sys/kernel/config/usb_gadget/pi4/configs/c.2/MaxPower
-echo "UVC" > /sys/kernel/config/usb_gadget/pi4/configs/c.2/strings/0x409/configuration
+mkdir /sys/kernel/config/usb_gadget/pi4/configs/c.1
+mkdir /sys/kernel/config/usb_gadget/pi4/configs/c.1/strings/0x409
+echo 500 > /sys/kernel/config/usb_gadget/pi4/configs/c.1/MaxPower
+echo "UVC" > /sys/kernel/config/usb_gadget/pi4/configs/c.1/strings/0x409/configuration
 
 mkdir /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0
 mkdir /sys/kernel/config/usb_gadget/pi4/functions/acm.usb0
