@@ -76,7 +76,7 @@ cd ../../class/hs
 ln -s ../../header/h
 cd ../../../../..
 
-ln -s /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0 /sys/kernel/config/usb_gadget/pi4/configs/c.2/uvc.usb0
-ln -s /sys/kernel/config/usb_gadget/pi4/functions/acm.usb0 /sys/kernel/config/usb_gadget/pi4/configs/c.2/acm.usb0
+ln -s /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0 /sys/kernel/config/usb_gadget/pi4/configs/c.1/uvc.usb0
+ln -s /sys/kernel/config/usb_gadget/pi4/functions/acm.usb0 /sys/kernel/config/usb_gadget/pi4/configs/c.1/acm.usb0
 udevadm settle -t 5 || :
 ls /sys/class/udc > /sys/kernel/config/usb_gadget/pi4/UDC
