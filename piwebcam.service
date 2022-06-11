@@ -2,13 +2,13 @@
 Description=Pi webcam
 
 [Service]
-ExecStart=/home/pi/uvc-gadget/piwebcam
+ExecStart=/home/tylerjl/uvc-gadget/piwebcam
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=piwebcam
-User=pi
-Group=pi
-WorkingDirectory=/home/pi/uvc-gadget/
+User=tylerjl
+Group=tylerjl
+WorkingDirectory=/home/tylerjl/uvc-gadget/
 
 [Install]
 WantedBy=basic.target
